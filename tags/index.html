@@ -17,6 +17,16 @@
 
 
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -320,10 +330,10 @@
         
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-                目前共计 2 个标签
+                目前共计 4 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/web/" style="font-size: 12px; color: #ccc">web</a> <a href="/tags/开发，vue-js/" style="font-size: 12px; color: #ccc">开发，vue.js</a>
+              <a href="/tags/vue-js/" style="font-size: 12px; color: #ccc">vue.js</a> <a href="/tags/web/" style="font-size: 12px; color: #ccc">web</a> <a href="/tags/开发/" style="font-size: 12px; color: #ccc">开发</a> <a href="/tags/面试/" style="font-size: 12px; color: #ccc">面试</a>
             </div>
           </div>
         
@@ -383,7 +393,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -394,7 +404,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -405,7 +415,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -468,7 +478,9 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright" >
+  <div class="copyright_in">
   
   &copy; 
   <span itemprop="copyrightYear">2017</span>
@@ -478,6 +490,14 @@
   <span class="author" itemprop="copyrightHolder">Zoey-wq</span>
 
   
+    
+  </div>
+  <div class="powered-by">
+      <i class="fa fa-user-md"></i>
+      <span id="busuanzi_container_site_uv">
+    本站访客数:<span id="busuanzi_value_site_uv"></span>
+      </span>
+    </div>
 </div>
 
 
