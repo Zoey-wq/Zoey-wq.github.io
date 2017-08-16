@@ -479,7 +479,7 @@ pre,
   overflow: auto;
   margin: 20px 0;
   padding: 0;
-  font-size: 13px;
+  font-size: 15px;
   color: #c5c8c6;
   background: #1d1f21;
   line-height: 1.6;
@@ -491,10 +491,10 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #d05;
   background: #eee;
-  border-radius: 3px;
-  font-size: 13px;
+  border-radius: 4px;
+  font-size: 15px;
 }
 pre code {
   padding: 0;
@@ -1809,7 +1809,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffb4f9;
+  background: #abffc4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2340,13 +2340,6 @@ pre .javascript .function {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
-}
-.site-uv {
-  margin-right: 10px;
-}
-.site-uv::after {
-  content: "|";
-  padding-left: 10px;
 }
 .use-motion .post {
   opacity: 0;
